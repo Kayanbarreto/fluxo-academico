@@ -1,0 +1,404 @@
+[
+    {
+        "id": 1,
+        "name": "Introdução à Programação",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 2,
+        "name": "Álgebra Vetorial e Geometria Analítica",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id":3,
+        "name": "Introdução à Engenharia Elétrica",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 4,
+        "name": "Cálculo Diferencial e Integral I",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 5,
+        "name": "Ciências do Ambiente",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 6,
+        "name": "Expressão Gráfica",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 7,
+        "name": "Física I",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 8,
+        "name": "Optativa",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 9,
+        "name": "Optativa",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 10,
+        "name": "Optativa",
+        "period": 1,
+        "requisites": []
+    },
+    {
+        "id": 11,
+        "name": "Técnicas de Programação",
+        "period": 2,
+        "requisites": [1]
+    },
+    {
+        "id": 12,
+        "name": "Álgebra Linear",
+        "period": 2,
+        "requisites": [2]
+    },
+    {
+        "id": 13,
+        "name": "Cálculo Diferencial e Integral II",
+        "period": 2,
+        "requisites": [4]
+    },
+    {
+        "id": 14,
+        "name": "Física Experimental",
+        "period": 2,
+        "requisites": [4, 7]
+    },
+    {
+        "id": 15,
+        "name": "Física II",
+        "period": 2,
+        "requisites": [4, 7]
+    },
+    {
+        "id": 16,
+        "name": "Circuitos Lógicos",
+        "period": 3,
+        "requisites": []
+    },
+    {
+        "id": 17,
+        "name": "Equações Diferenciais",
+        "period": 3,
+        "requisites": [12, 13]
+    },
+    {
+        "id": 18,
+        "name": "Cálculo Diferencial e Integral III",
+        "period": 3,
+        "requisites": [2, 13]
+    },
+    {
+        "id": 19,
+        "name": "Probabilidade e Estatística",
+        "period": 3,
+        "requisites": [13]
+    },
+    {
+        "id": 20,
+        "name": "Laboratório de Ótica, Eletricidade e Magnetismo",
+        "period": 3,
+        "requisites": [14, 15]
+    },
+    {
+        "id": 21,
+        "name": "Eletricidade e Magnetismo",
+        "period": 3,
+        "requisites": [13, 14, 15]
+    },
+    {
+        "id": 22,
+        "name": "Mecânica I",
+        "period": 3,
+        "requisites": [7, 13]
+    },
+    {
+        "id": 23,
+        "name": "Química",
+        "period": 3,
+        "requisites": []
+    },
+    {
+        "id": 24,
+        "name": "Cálculo Numérico",
+        "period": 4,
+        "requisites": [11, 17]
+    },
+    {
+        "id": 25,
+        "name": "Circuitos Elétricos I",
+        "period": 4,
+        "requisites": [17, 20, 21]
+    },
+    {
+        "id": 26,
+        "name": "Variáveis Complexas",
+        "period": 4,
+        "requisites": [18]
+    },
+    {
+        "id": 27,
+        "name": "Processos Estocásticos",
+        "period": 4,
+        "requisites": [19]
+    },
+    {
+        "id": 28,
+        "name": "Eletromagnetismo",
+        "period": 4,
+        "requisites": [18, 20, 21]
+    },
+    {
+        "id": 29,
+        "name": "Mecânica II",
+        "period": 4,
+        "requisites": [22]
+    },
+    {
+        "id": 30,
+        "name": "Optativa",
+        "period": 4,
+        "requisites": []
+    },
+    {
+        "id": 31,
+        "name": "Arquitetura de Sistemas Digitais",
+        "period": 5,
+        "requisites": [16]
+    },
+    {
+        "id": 32,
+        "name": "Dispositivos Eletrônicos",
+        "period": 5,
+        "requisites": [25]
+    },
+    {
+        "id": 33,
+        "name": "Circuitos Elétricos II",
+        "period": 5,
+        "requisites": [25]
+    },
+    {
+        "id": 34,
+        "name": "Análise de Sinais e Sistemas",
+        "period": 5,
+        "requisites": [17, 26]
+    },
+    {
+        "id": 35,
+        "name": "Ondas e Linhas",
+        "period": 5,
+        "requisites": [28]
+    },
+    {
+        "id": 36,
+        "name": "Fenômenos de Transporte",
+        "period": 5,
+        "requisites": [13, 14, 15, 29]
+    },
+    {
+        "id": 37,
+        "name": "Int. à Ciência dos Materiais",
+        "period": 5,
+        "requisites": [23, 29]
+    },
+    {
+        "id": 38,
+        "name": "Optativa",
+        "period": 5,
+        "requisites": []
+    },
+    {
+        "id": 39,
+        "name": "Sistemas Elétricos",
+        "period": 6,
+        "requisites": [24, 33]
+    },
+    {
+        "id": 40,
+        "name": "Eletrônica",
+        "period": 6,
+        "requisites": [32, 33]
+    },
+    {
+        "id": 41,
+        "name": "Conversão Eletromecânica",
+        "period": 6,
+        "requisites": [28, 33]
+    },
+    {
+        "id": 42,
+        "name": "Controle Analógico",
+        "period": 6,
+        "requisites": [34]
+    },
+    {
+        "id": 43,
+        "name": "Princípios de Comunicações",
+        "period": 6,
+        "requisites": [27, 34]
+    },
+    {
+        "id": 44,
+        "name": "Profissional Específica",
+        "period": 6,
+        "requisites": []
+    },
+    {
+        "id": 45,
+        "name": "Materiais Elétricos",
+        "period": 6,
+        "requisites": [20, 21, 37]
+    },
+    {
+        "id": 46,
+        "name": "Instituições do Direito",
+        "period": 6,
+        "requisites": []
+    },
+    {
+        "id": 47,
+        "name": "Sociologia Industrial",
+        "period": 6,
+        "requisites": []
+    },
+    {
+        "id": 48,
+        "name": "Optativa",
+        "period": 6,
+        "requisites": []
+    },
+    {
+        "id": 49,
+        "name": "Instalações Elétricas",
+        "period": 7,
+        "requisites": [39, 45]
+    },
+    {
+        "id": 50,
+        "name": "Eletrônica de Potência",
+        "period": 7,
+        "requisites": [40]
+    },
+    {
+        "id": 51,
+        "name": "Controle Digital",
+        "period": 7,
+        "requisites": [42]
+    },
+    {
+        "id": 52,
+        "name": "Profissional Específica",
+        "period": 7,
+        "requisites": []
+    },
+    {
+        "id": 53,
+        "name": "Profissional Específica",
+        "period": 7,
+        "requisites": []
+    },
+    {
+        "id": 54,
+        "name": "Profissional Específica",
+        "period": 7,
+        "requisites": []
+    },
+    {
+        "id": 55,
+        "name": "Administração",
+        "period": 7,
+        "requisites": []
+    },
+    {
+        "id": 56,
+        "name": "Economia",
+        "period": 7,
+        "requisites": []
+    },
+    {
+        "id": 57,
+        "name": "Optativa",
+        "period": 8,
+        "requisites": [39]
+    },
+    {
+        "id": 58,
+        "name": "Estágio Curricular",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 59,
+        "name": "Proj. de Engenharia Elétrica",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 60,
+        "name": "Optativa",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 61,
+        "name": "Optativa",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 62,
+        "name": "Profissional Específica",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 63,
+        "name": "Profissional Específica",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 64,
+        "name": "Profissional Específica",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 65,
+        "name": "Profissional Específica",
+        "period": 8,
+        "requisites": []
+    },
+    {
+        "id": 66,
+        "name": "Engenharia Econômica",
+        "period": 8,
+        "requisites": [56]
+    },
+    {
+        "id": 67,
+        "name": "Optativa",
+        "period": 8,
+        "requisites": []
+    }
+]

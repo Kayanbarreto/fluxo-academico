@@ -1,0 +1,355 @@
+[
+	{
+		"id": 1,
+		"name": "Fundamentos de Matemática para Ciência da Computação 1",
+		"period": 1,
+		"requisites": []
+	},
+	{
+		"id": 2,
+		"name": "Introdução à Computação",
+		"period": 1,
+		"requisites": []
+	},
+	{
+		"id": 3,
+		"name": "Laboratório de Programação 1",
+		"period": 1,
+		"requisites": []
+	},
+	{
+		"id": 4,
+		"name": "Programação 1",
+		"period": 1,
+		"requisites": []
+	},
+	{
+		"id": 5,
+		"name": "Direito e Cidadania",
+		"period": 1,
+		"requisites": []
+	},
+	{
+		"id": 6,
+		"name": "Fundamentos de Matemática para Ciência da Computação 2",
+		"period": 2,
+		"requisites": [
+			1
+		]
+	},
+	{
+		"id": 7,
+		"name": "Cálculo Diferencial e Integral 1",
+		"period": 2,
+		"requisites": [
+			2
+		]
+	},
+	{
+		"id": 8,
+		"name": "Laboratório de Programação 2",
+		"period": 2,
+		"requisites": [
+			3,
+			4
+		]
+	},
+	{
+		"id": 9,
+		"name": "Programação 2",
+		"period": 2,
+		"requisites": [
+			3,
+			4
+		]
+	},
+	{
+		"id": 10,
+		"name": "Economia",
+		"period": 2,
+		"requisites": []
+	},
+	{
+		"id": 11,
+		"name": "Lógica para Computação",
+		"period": 3,
+		"requisites": [
+			6
+		]
+	},
+	{
+		"id": 12,
+		"name": "Cálculo Diferencial e Integral 2",
+		"period": 3,
+		"requisites": [
+			7
+		]
+	},
+	{
+		"id": 13,
+		"name": "Laboratório de Estrutura de Dados e Algoritmos",
+		"period": 3,
+		"requisites": [
+			8,
+			9
+		]
+	},
+	{
+		"id": 14,
+		"name": "Estrutura de Dados e Algoritmos",
+		"period": 3,
+		"requisites": [
+			8,
+			9
+		]
+	},
+	{
+		"id": 15,
+		"name": "Álgebra Linear 1",
+		"period": 3,
+		"requisites": [
+			6
+		]
+	},
+	{
+		"id": 16,
+		"name": "Teoria da Computação",
+		"period": 4,
+		"requisites": [
+			11
+		]
+	},
+	{
+		"id": 17,
+		"name": "Introdução à Probabilidade",
+		"period": 4,
+		"requisites": [
+			12
+		]
+	},
+	{
+		"id": 18,
+		"name": "Organização e Arquitetura de Computadores",
+		"period": 4,
+		"requisites": [
+			2
+		]
+	},
+	{
+		"id": 19,
+		"name": "Banco de Dados 1",
+		"period": 4,
+		"requisites": [
+			14
+		]
+	},
+	{
+		"id": 20,
+		"name": "Teoria dos Grafos",
+		"period": 4,
+		"requisites": [
+			1,
+			8,
+			9
+		]
+	},
+	{
+		"id": 21,
+		"name": "Paradigmas de Linguagens de Programação",
+		"period": 4,
+		"requisites": [
+			8,
+			9
+		]
+	},
+	{
+		"id": 22,
+		"name": "Inteligência Artificial",
+		"period": 5,
+		"requisites": [
+			16
+		]
+	},
+	{
+		"id": 23,
+		"name": "Estatística Aplicada",
+		"period": 5,
+		"requisites": [
+			17
+		]
+	},
+	{
+		"id": 24,
+		"name": "Sistemas Operacionais",
+		"period": 5,
+		"requisites": [
+			18
+		]
+	},
+	{
+		"id": 25,
+		"name": "Projeto de Software",
+		"period": 5,
+		"requisites": [
+			13,
+			14
+		]
+	},
+	{
+		"id": 26,
+		"name": "Engenharia de Software",
+		"period": 5,
+		"requisites": [
+			8,
+			9
+		]
+	},
+	{
+		"id": 27,
+		"name": "Redes de Computadores",
+		"period": 5,
+		"requisites": [
+			2
+		]
+	},
+	{
+		"id": 30,
+		"name": "Programação Concorrente",
+		"period": 6,
+		"requisites": [
+			24
+		]
+	},
+	{
+		"id": 31,
+		"name": "Análise de Sistemas",
+		"period": 6,
+		"requisites": [
+			25
+		]
+	},
+	{
+		"id": 32,
+		"name": "Análise e Técnicas de Algoritmos",
+		"period": 6,
+		"requisites": [
+			14,
+			20
+		]
+	},
+	{
+		"id": 28,
+		"name": "Optativa",
+		"period": 6,
+		"requisites": []
+	},
+	{
+		"id": 29,
+		"name": "Optativa",
+		"period": 6,
+		"requisites": []
+	},
+	{
+		"id": 33,
+		"name": "Compiladores",
+		"period": 7,
+		"requisites": [
+			16,
+			21
+		]
+	},
+	{
+		"id": 34,
+		"name": "Metodologia Científica",
+		"period": 7,
+		"requisites": [
+			23
+		]
+	},
+	{
+		"id": 35,
+		"name": "Optativa",
+		"period": 7,
+		"requisites": []
+	},
+	{
+		"id": 36,
+		"name": "Optativa",
+		"period": 7,
+		"requisites": []
+	},
+	{
+		"id": 37,
+		"name": "Optativa",
+		"period": 7,
+		"requisites": []
+	},
+	{
+		"id": 38,
+		"name": "Língua Portuguesa",
+		"period": 8,
+		"requisites": []
+	},
+	{
+		"id": 42,
+		"name": "Projeto em Computação 1",
+		"period": 8,
+		"requisites": [
+			26,
+			31
+		]
+	},
+	{
+		"id": 39,
+		"name": "Optativa",
+		"period": 8,
+		"requisites": []
+	},
+	{
+		"id": 40,
+		"name": "Optativa",
+		"period": 8,
+		"requisites": []
+	},
+	{
+		"id": 41,
+		"name": "Optativa",
+		"period": 8,
+		"requisites": []
+	},
+	{
+		"id": 43,
+		"name": "Trabalho de Conclusão de Curso",
+		"period": 9,
+		"requisites": [
+			34,
+			38
+		]
+	},
+	{
+		"id": 47,
+		"name": "Projeto em Computação 2",
+		"period": 9,
+		"requisites": [
+			42
+		]
+	},
+	{
+		"id": 44,
+		"name": "Optativa",
+		"period": 9,
+		"requisites": []
+	},
+	{
+		"id": 45,
+		"name": "Optativa",
+		"period": 9,
+		"requisites": []
+	},
+	{
+		"id": 46,
+		"name": "Optativa",
+		"period": 9,
+		"requisites": []
+	}
+]
