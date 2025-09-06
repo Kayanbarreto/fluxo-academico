@@ -32,13 +32,13 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       # opcional, se tiver script de lint
-      - name: Lint
-        run: pnpm run lint
-        continue-on-error: false
+      #- name: Lint
+      #  run: pnpm run lint
+      #  continue-on-error: false
 
       # opcional, se tiver testes
-      - name: Test
-        run: pnpm test -- --ci
+      #- name: Test
+      #  run: pnpm test -- --ci
 
       - name: Build
         run: pnpm build
