@@ -40,7 +40,7 @@
     	{
 		"id": 7,
 		"name": "Arquitetura de Computadores",
-		"period": 1,
+		"period": 2,
 		"requisites": [
             2
         ]
