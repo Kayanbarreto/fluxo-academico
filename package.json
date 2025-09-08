@@ -12,5 +12,10 @@
 	"devDependencies": {
 		"@preact/preset-vite": "^2.8.2",
 		"vite": "^5.2.2"
+	},
+
+	"scripts": {
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d dist"
 	}
 }
