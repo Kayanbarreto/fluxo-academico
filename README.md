@@ -1,5 +1,5 @@
-![CI](https://github.com/<kayanbarreto>/<fluxo-academico>/actions/workflows/ci.yml/badge.svg)
-![Deploy Pages](https://github.com/<kayanbarreto>/<fluxo-academico>/actions/workflows/deploy-pages.yml/badge.svg)
+#![CI](https://github.com/<kayanbarreto>/<fluxo-academico>/actions/workflows/ci.yml/badge.svg)
+#![Deploy Pages](https://github.com/<kayanbarreto>/<fluxo-academico>/actions/workflows/deploy-pages.yml/badge.svg)
 
 
 # fluxo-academico
