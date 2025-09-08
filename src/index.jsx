@@ -123,10 +123,10 @@ function Course(props) {
 }
 
 import _ads from "./data/ads_ifba.json"
-import _ccNew from "./data/cc_new.json"
+/* import _ccNew from "./data/cc_new.json"
 import _ccOld from "./data/cc_old.json"
 import _eeNew from "./data/ee_new.json"
-
+*/
 const _grades = [{id: 1, name: "Análise e Desenvolvimento de Sistemas - IFBA", courses: _ads},
 { id: 2, name: "Ciência da Computação - Novo", courses: _ccNew },
 { id: 3, name: "Ciência da Computação - Antigo", courses: _ccOld },
